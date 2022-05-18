@@ -1,0 +1,27 @@
+body
+{
+    font-family: 'Raleway', sans-serif;  
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img
+{
+  height: 69px;  
+}
+
+nav ul 
+{
+    display: flex;
+    list-style: none;
+}
+
+nav li
+{
+    margin-right: 10px;
+}
