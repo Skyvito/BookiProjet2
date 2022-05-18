@@ -39,9 +39,20 @@ nav li
     margin: 0 50px 0 20px;
 }
 
-#bleu
+.bleu
 {
     color: rgb(0, 101, 252);
     border-top: 0.2em solid blue;
-    
+    padding: 35px;
+}
+
+.bas
+{
+margin-top: 38px;
+color: black;
+}
+
+header a
+{
+    text-decoration: none;
 }
