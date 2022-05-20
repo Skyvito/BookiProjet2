@@ -14,45 +14,48 @@ header nav
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1440px;
+    max-width: 1440px;
+    position:absolute;
     
 }
 
 nav img
 {
     height: 50px;  
-    margin-top: 2.3%;
+    margin-top: 2.8%;
     margin-left: 4.7%;
+    position:fixed;
 }
 
-nav ul 
-{
-    display: flex;
-    list-style: none;
-    
-    
-    
-}
-
-nav li
-{
-    margin: 0 50px 0 20px;
-}
 
 .bleu
 {
     color: rgb(0, 101, 252);
     border-top: 0.2em solid blue;
-    padding: 35px;
+    display: block;
+    padding-top: 20PX
+    
+   
+    
 }
 
 .bas
 {
-margin-top: 38px;
-color: black
+
+color: black;
+border-top: 0.2em solid white;
+margin-left: 20%;
+margin-top: 20px
+
+
+
 }
 
 header a
 {
     text-decoration: none;
+    display: flex;
+    border-top: 0.2em solid;
+    position:relative;
+    left: 678%;
 }
