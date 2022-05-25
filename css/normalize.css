@@ -29,8 +29,8 @@ nav img
 
 
 .bleu
-{
-    color: rgb(0, 101, 252);
+{    
+    color: blue;
     border-top: 0.2em solid blue;
     display: block;
     padding-top: 20PX
@@ -45,8 +45,8 @@ nav img
 color: black;
 border-top: 0.2em solid white;
 margin-left: 20%;
-margin-top: 20px
-
+margin-top: 20px;
+border-right: 1em solid white;
 
 
 }
@@ -57,5 +57,31 @@ header a
     display: flex;
     border-top: 0.2em solid;
     position:relative;
-    left: 678%;
+    left: 600%;
 }
+
+#titre
+{
+ position: fixed;
+ top: 115px;
+ margin-left: 4.7%;
+ font-size: 13px;
+}
+
+@media screen and (max-width:768px)
+{
+    nav img
+    { left: 120px; }
+
+    header a
+    {top: 80px;
+     left: 70px;
+     font-size: 15px;
+     display: flex;
+     flex-direction: column-reverse;}
+
+   
+} 
+   
+ 
+
