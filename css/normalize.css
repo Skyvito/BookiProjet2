@@ -1,87 +1,65 @@
-*
-{
-    padding: 0%;
-    margin: 0%;
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
 }
 
-body
-{
-    font-family: 'Raleway', sans-serif;  
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+blockquote,
+dl,
+dd {
+    margin: 0;
+    padding: 0;
 }
 
-header nav
-{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1440px;
-    position:absolute;
-    
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul,
+ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
-nav img
-{
-    height: 50px;  
-    margin-top: 2.8%;
-    margin-left: 4.7%;
-    position:fixed;
+/* Set core root defaults */
+html:focus-within {
+    scroll-behavior: smooth;
 }
 
-
-.bleu
-{    
-    color: blue;
-    border-top: 0.2em solid blue;
-    display: block;
-    padding-top: 20PX
-    
-   
-    
+/* Set core body defaults */
+body {
+    min-height: 100vh;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
 }
 
-.bas
-{
-
-color: black;
-border-top: 0.2em solid white;
-margin-left: 20%;
-margin-top: 20px;
-border-right: 1em solid white;
-
-
-}
-
-header a
-{
+/* A elements that don't have a class get default styles */
+a {
     text-decoration: none;
-    display: flex;
-    border-top: 0.2em solid;
-    position:relative;
-    left: 600%;
 }
 
-#titre
-{
- position: fixed;
- top: 115px;
- margin-left: 4.7%;
- font-size: 13px;
+/* Make images easier to work with */
+img,
+picture {
+    width: 100%;
+    max-width: 100%;
+    display: block;
 }
 
-@media screen and (max-width:768px)
-{
-    nav img
-    { left: 120px; }
-
-    header a
-    {top: 80px;
-     left: 70px;
-     font-size: 15px;
-     display: flex;
-     flex-direction: column-reverse;}
-
-   
-} 
-   
- 
-
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+    padding: 0;
+}

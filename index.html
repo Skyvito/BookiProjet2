@@ -1,34 +1,407 @@
 <!DOCTYPE html>
-<html>
- <head>
-     <meta charset="UTF-8" />
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Booki</title>
-     <link rel="stylesheet" href="css/normalize.css" />
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
-      <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
- </head>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/normalize.css" />
+        <link rel="stylesheet" href="css/style-desktop.css" />
+        <title>Booki</title>
+    </head>
 
-<body>
-    <!--Header-->
-    <header>
-      <nav> 
-        <img src="assets/logo/Booki.png" alt="logo">
-      
-        <a class="bleu" href="#" title="Hébergements à Marseille">Hébergements</a>
-        <a class="bas" href="#" title="Activités à Marseille">Activités</a>
-         
-      </nav>
-    </header>
-     <!--Formaulaire de recherche-->    
-     <section>
-       <div id="titre">
-        <h2>Trouver votre hébergement pour des vacances de reve</h2>
-        <p>En plein centre ville ou pleine nature</p>
-       </div>
+    <body>
+        <header style="background-color: rgb(255, 204, 204)">
+            <a href="">
+                <img
+                    src="/assets/logo/Booki.png"
+                    alt="Logo de l'agence Booki"
+                />
+            </a>
 
-    </section>
-  
+            <nav style="background-color: rgb(128, 172, 255)">
+                <ul style="background-color: rgb(221, 255, 31)">
+                    <li style="background-color: rgb(241, 85, 255)">
+                        <a href="#Hébergements">Hébergement</a>
+                    </li>
+                    <li style="background-color: rgb(113, 255, 236)">
+                        <a href="#Activités">Activités</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
 
-</body>
+        <section>
+            <h1 style="background-color: rgb(0, 162, 255)">
+                Trouvez votre hébergement pour des vacances de rêve
+            </h1>
+            <p style="background-color: rgb(91, 223, 179)">
+                En plein centre ville ou pleine nature
+            </p>
+
+            <form style="background-color: rgb(172, 235, 136)">
+                <label for="field-search-bar">
+                    <i class="fa-solid fa-location-dot"></i>
+                </label>
+                <input
+                    type="text"
+                    name="field-search-bar"
+                    id="field-search-bar"
+                    placeholder="Marseille, France"
+                />
+                <button>
+                    <i class="fa-solid fa-magnifying-glass"></i
+                    ><span>Rechercher</span>
+                </button>
+            </form>
+
+            <p id="filtres" style="background-color: rgb(142, 165, 61)">
+                Filtres
+            </p>
+
+            <button style="background-color: rgb(102, 126, 136)">
+                <i class="fa-solid fa-money-bill-wave"></i>
+                <span>Économique</span>
+            </button>
+
+            <button style="background-color: rgb(55, 151, 111)">
+                <i class="fa-solid fa-child-reaching"></i>
+                <span>Familial</span>
+            </button>
+
+            <button style="background-color: rgb(150, 71, 214)">
+                <i class="fa-solid fa-heart"></i>
+                <span>Romantique</span>
+            </button>
+
+            <button style="background-color: rgb(72, 189, 72)">
+                <i class="fa-solid fa-dog"></i>
+                <span>Animaux autorisés</span>
+            </button>
+
+            <p style="background-color: rgb(141, 176, 204)">
+                <i class="fas fa-info"></i>
+                Plus de 500 logements sont disponibles dans cette ville
+            </p>
+        </section>
+        <div id="logements">
+            <section
+                id="h-marseille"
+                style="background-color: rgba(169, 245, 228, 0.432)"
+            >
+                <header>
+                    <h2
+                        id="Hébergements"
+                        style="background-color: rgb(150, 142, 192)"
+                    >
+                        Hébergements à Marseille
+                    </h2>
+                </header>
+                <a href="#">
+                    <figure style="background-color: rgb(185, 153, 226)">
+                        <img
+                            src="/assets/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+                            alt="Chambre de l'Auberge La Cannebière"
+                        />
+
+                        <figcaption>
+                            <h3>Auberge La Cannebière</h3>
+                            <p>Nuit à partir de 25€</p>
+                            <div>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </a>
+
+                <a href="#">
+                    <figure style="background-color: rgb(119, 226, 155)">
+                        <img
+                            src="/assets/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
+                            alt="Chambre de l'hotel du port"
+                        />
+
+                        <figcaption>
+                            <h3>Hôtel du port</h3>
+                            <p>Nuit à partir de 52€</p>
+                            <div>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </a>
+                <a href="#">
+                    <figure style="background-color: rgb(235, 194, 84)">
+                        <img
+                            src="/assets/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"
+                            alt="Chambre de l'hotel les mouettes"
+                        />
+
+                        <figcaption>
+                            <h3>Hôtel les mouettes</h3>
+                            <p>Nuit à partir de 76€</p>
+                            <div>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </a>
+
+                <a href="#">
+                    <figure style="background-color: rgb(184, 223, 255)">
+                        <img
+                            src="/assets/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
+                            alt="Chambre de l'hotel de la mer"
+                        />
+
+                        <figcaption>
+                            <h3>Hôtel de la mer</h3>
+                            <p>Nuit à partir de 46€</p>
+                            <div>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </a>
+                <a href="#">
+                    <figure style="background-color: rgb(191, 209, 90)">
+                        <img
+                            src="/assets/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
+                            alt="Chambre de l'Auberge le Panier"
+                        />
+
+                        <figcaption>
+                            <h3>Auberge Le Panier</h3>
+                            <p>Nuit à partir de 23€</p>
+                            <div>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </a>
+                <a href="#">
+                    <figure style="background-color: rgb(245, 185, 22)">
+                        <img
+                            src="/assets/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
+                            alt="Chambre de l'Hôtel chez Amina"
+                        />
+
+                        <figcaption>
+                            <h3>Hôtel chez Amina</h3>
+                            <p>Nuit à partir de 96€</p>
+                            <div>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </a>
+                <button name="plus">Afficher plus</button>
+            </section>
+            <section id="droite-sec" style="background-color: rgb(85, 76, 209)">
+                <header id="populaires-header">
+                    <h2>Les plus populaires</h2>
+                    <i class="fa-solid fa-star"></i>
+                </header>
+
+                <a href="#">
+                    <figure style="background-color: rgb(78, 209, 133)">
+                        <img
+                            src="/assets/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+                            alt="Chambre de l'hôtel le soleil du matin"
+                        />
+
+                        <figcaption>
+                            <h3>Hôtel le soleil du matin</h3>
+                            <p>Nuit à partir de 128€</p>
+                            <div>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </a>
+                <a href="#">
+                    <figure style="background-color: rgb(216, 159, 197)">
+                        <img
+                            src="/assets/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
+                            alt="Chambre de l'hotel au coeur de l'eau chambres d'hôtes"
+                        />
+
+                        <figcaption>
+                            <h3>Au coeur de l'eau Chambres d'hôtes</h3>
+                            <p>Nuit à partir de 71€</p>
+                            <div>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </a>
+                <a href="#">
+                    <figure style="background-color: rgb(209, 169, 124)">
+                        <img
+                            src="/assets/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
+                            alt="Chambre de l'hôtel tout bleu et blanc"
+                        />
+
+                        <figcaption>
+                            <h3>Hôtel Tout bleu et Blanc</h3>
+                            <p>Nuit à partir de 68€</p>
+                            <div>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </a>
+            </section>
+        </div>
+        <section id="a-marseille" style="background-color: rgb(76, 168, 161)">
+            <header>
+                <h2 id="Activités" style="background-color: rgb(0, 194, 228)">
+                    Activités à Marseille
+                </h2>
+            </header>
+
+            <a href="#">
+                <figure style="background-color: rgb(204, 195, 142)">
+                    <img
+                        src="/assets/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
+                        alt="Le Vieux Port"
+                    />
+
+                    <figcaption>
+                        <h3>Vieux Port</h3>
+                    </figcaption>
+                </figure>
+            </a>
+            <a href="#">
+                <figure style="background-color: rgb(192, 134, 46)">
+                    <img
+                        src="/assets/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
+                        alt="Le Fort de Pomègues"
+                    />
+
+                    <figcaption>
+                        <h3>Fort de Pomègues</h3>
+                    </figcaption>
+                </figure>
+            </a>
+            <a href="#">
+                <figure style="background-color: rgb(99, 120, 160)">
+                    <img
+                        src="/assets/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
+                        alt="L'île du Frioul"
+                    />
+
+                    <figcaption>
+                        <h3>îles du Frioul</h3>
+                    </figcaption>
+                </figure>
+            </a>
+            <a href="#">
+                <figure style="background-color: rgb(195, 196, 141)">
+                    <img
+                        src="/assets/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
+                        alt="Le Parc National des Calanques"
+                    />
+
+                    <figcaption>
+                        <h3>Parc National des Calanques</h3>
+                    </figcaption>
+                </figure>
+            </a>
+            <a href="#">
+                <figure style="background-color: rgb(115, 214, 102)">
+                    <img
+                        src="/assets/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"
+                        alt="Notre-Dame-de-la-Garde"
+                    />
+
+                    <figcaption>
+                        <h3>Notre-Dame-de-la-Garde</h3>
+                    </figcaption>
+                </figure>
+            </a>
+            <a href="#">
+                <figure style="background-color: rgb(234, 215, 240)">
+                    <img
+                        src="/assets/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
+                        alt="Le Parc Longchamp"
+                    />
+
+                    <figcaption>
+                        <h3>Parc Longchamp</h3>
+                    </figcaption>
+                </figure>
+            </a>
+        </section>
+
+        <footer style="background-color: rgb(194, 160, 116)">
+            <div id="propos" style="background-color: rgb(153, 200, 206)">
+                <h3>A propos</h3>
+                <ul>
+                    <li>Fonctionnement du site</li>
+                    <li>Conditions générales de vente</li>
+                    <li>Données et confidentialité</li>
+                </ul>
+            </div>
+            <div
+                id="nos-hébergements"
+                style="background-color: rgb(175, 199, 160)"
+            >
+                <h3>Nos hébergements</h3>
+                <ul>
+                    <li>Charte qualité</li>
+                    <li>Soumettre votre hôtel</li>
+                </ul>
+            </div>
+            <div id="Assistance" style="background-color: rgb(228, 156, 156)">
+                <h3>Assistance</h3>
+                <ul>
+                    <li>Centre d'aide</li>
+                    <li>Nous contacter</li>
+                </ul>
+            </div>
+        </footer>
+    </body>
 </html>

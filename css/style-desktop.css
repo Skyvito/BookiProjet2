@@ -1,0 +1,45 @@
+header {
+    display: inline-block;
+}
+
+header img {
+    position: relative;
+    top: 18px;
+    left: 15px;
+}
+
+header ul li {
+    display: table-cell;
+    position: relative;
+    left: 950%;
+    bottom: 15px;
+}
+
+#filtres {
+    display: inline-block;
+}
+
+#logements {
+    display: flex;
+    justify-content: space-between;
+}
+
+#droite-sec figure {
+    display: flex;
+}
+
+#populaires-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#h-marseille figure {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
