@@ -40,6 +40,15 @@ header ul li {
     flex-direction: column;
 }
 
+#a-marseille {
+    display: inline-block;
+}
+
+#a-marseille figure {
+    display: flex;
+    flex-direction: column;
+}
+
 footer {
     display: flex;
     justify-content: space-between;
