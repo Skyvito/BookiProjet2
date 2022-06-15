@@ -1,55 +1,264 @@
 /*header*/
-header {
-    display: inline-block;
+body > header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
 }
 
 header img {
     position: relative;
-    top: 18px;
-    left: 15px;
 }
 
-header ul li {
-    display: table-cell;
+header ul {
+    display: flex;
+}
+
+#activity {
+    padding-left: 25px;
+}
+
+/*Section outil*/
+#section-button {
+    padding: 0 20px;
+    padding-top: 20px;
+}
+
+#bar-search {
+    margin-bottom: 20px;
+    margin-top: 12px;
+}
+
+#button-search i {
+    display: none;
+}
+
+#filtered {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+section > button {
+    margin: 0 10px 5px 0;
+}
+
+section h1 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#housing-info {
+    margin-top: 15px;
+}
+
+/*Populaire/Hebergement*/
+#housing {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+#housing > section {
+    padding: 20px;
+}
+
+#housing header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+/*Populaire Marseille*/
+
+#title-popular {
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+#popular-section {
+    width: 35%;
+}
+
+#popular-section figure {
+    display: flex;
+    width: calc(100% / 3);
+    height: 11vw;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#div-popular figcaption {
     position: relative;
-    left: 950%;
-    bottom: 15px;
 }
 
-#filtres {
-    display: inline-block;
+#div-popular figcaption > div {
+    position: absolute;
+    bottom: 0;
 }
 
-#logements {
+#div-popular figcaption > h3 {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+/*Hotel Marseille*/
+#accommodation-section {
+    width: 65%;
+}
+
+#title-accommodation {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#show-more {
+    margin-right: 600px;
+}
+
+#accommodation-section figure {
+    padding: 5px;
+}
+
+#First-line {
     display: flex;
-    justify-content: space-between;
+    gap: 20px;
+    padding-top: 20px;
 }
 
-#droite-sec figure {
+div#First-line > a {
+    width: calc(100% / 3);
+}
+
+#First-line img {
+    height: 11vw;
+}
+
+#First-line figcaption {
+    height: 100px;
+    position: relative;
+}
+
+#First-line figcaption > div {
+    position: absolute;
+    bottom: 0;
+}
+
+#First-line h3 {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+#second-line {
     display: flex;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-#populaires-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+div#second-line > a {
+    width: calc(100% / 3);
+}
+#second-line img {
+    height: 11vw;
+}
+#second-line figcaption {
+    height: 100px;
+    position: relative;
+}
+#second-line figcaption > div {
+    position: absolute;
+    bottom: 0;
 }
 
-#h-marseille figure {
+#second-line h3 {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+/*Activités*/
+#activity-section {
+    padding: 20px;
+    height: 500px;
+}
+
+#title-activities {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#activity-section div > figure {
     display: flex;
     flex-direction: column;
 }
 
-#a-marseille {
-    display: inline-block;
-}
-
-#a-marseille figure {
+#picture-activities {
     display: flex;
-    flex-direction: column;
+    gap: 20px;
+    padding-top: 20px;
 }
 
+#figure-vieux-port {
+    width: 25vw;
+    height: 380px;
+    position: relative;
+}
+
+#div-fort-de-poègues-et-iles-du-frioul {
+    width: 25vw;
+}
+
+#figure-le-fort-de-pomègues {
+    height: 190px;
+    position: relative;
+}
+
+#figure-ile-du-frioul {
+    height: 150px;
+    margin-top: 40px;
+    position: relative;
+}
+
+#figure-pac-national-des-calanques {
+    width: 25vw;
+    height: 380px;
+    position: relative;
+}
+
+#div-notre-dame-de-la-garde-et-parc-longchamp {
+    width: 25vw;
+}
+
+#figure-notre-dame-de-la-garde {
+    height: 170px;
+    position: relative;
+}
+
+#figure-parc-longchamp {
+    height: 170px;
+    margin-top: 40px;
+    position: relative;
+}
+
+#activity-section div figcaption > h3 {
+    font-size: 19px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+}
+
+/*footer*/
 footer {
     display: flex;
-    justify-content: space-between;
+    padding: 20px;
+    gap: 20px;
+}
+
+footer > div {
+    width: calc(100% / 3);
+}
+
+footer div > h3 {
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
