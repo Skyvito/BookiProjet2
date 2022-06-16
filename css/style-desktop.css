@@ -122,7 +122,6 @@ section h1 {
 #First-line {
     display: flex;
     gap: 20px;
-    padding-top: 20px;
 }
 
 div#First-line > a {
