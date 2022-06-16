@@ -135,6 +135,7 @@ div#First-line > a {
 #First-line figcaption {
     height: 100px;
     position: relative;
+    padding-top: 19px;
 }
 
 #First-line figcaption > div {
@@ -163,6 +164,7 @@ div#second-line > a {
 #second-line figcaption {
     height: 100px;
     position: relative;
+    padding-top: 19px;
 }
 #second-line figcaption > div {
     position: absolute;
@@ -177,7 +179,7 @@ div#second-line > a {
 /*Activités*/
 #activity-section {
     padding: 20px;
-    height: 500px;
+    height: 600px;
 }
 
 #title-activities {
@@ -198,8 +200,12 @@ div#second-line > a {
 
 #figure-vieux-port {
     width: 25vw;
-    height: 380px;
+    height: 480px;
     position: relative;
+}
+
+#figure-vieux-port img {
+    height: 450px;
 }
 
 #div-fort-de-poègues-et-iles-du-frioul {
@@ -207,20 +213,34 @@ div#second-line > a {
 }
 
 #figure-le-fort-de-pomègues {
-    height: 190px;
+    height: 240px;
     position: relative;
 }
 
+#figure-le-fort-de-pomègues img {
+    width: 25vw;
+    height: 210px;
+}
+
 #figure-ile-du-frioul {
-    height: 150px;
+    height: 200px;
     margin-top: 40px;
     position: relative;
 }
 
+#figure-ile-du-frioul img {
+    width: 25vw;
+    height: 170px;
+}
+
 #figure-pac-national-des-calanques {
     width: 25vw;
-    height: 380px;
+    height: 480px;
     position: relative;
+}
+
+#figure-pac-national-des-calanques img {
+    height: 450px;
 }
 
 #div-notre-dame-de-la-garde-et-parc-longchamp {
@@ -228,14 +248,22 @@ div#second-line > a {
 }
 
 #figure-notre-dame-de-la-garde {
-    height: 170px;
+    height: 220px;
     position: relative;
 }
 
+#figure-notre-dame-de-la-garde img {
+    height: 190px;
+}
+
 #figure-parc-longchamp {
-    height: 170px;
+    height: 220px;
     margin-top: 40px;
     position: relative;
+}
+
+#figure-parc-longcham img {
+    height: 190px;
 }
 
 #activity-section div figcaption > h3 {
