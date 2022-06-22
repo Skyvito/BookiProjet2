@@ -18,7 +18,7 @@
 
     <body>
         <!--Header-->
-        <header style="background-color: rgb(255, 204, 204)">
+        <header>
             <a href="">
                 <img
                     src="/assets/logo/Booki.png"
@@ -26,31 +26,24 @@
                 />
             </a>
 
-            <nav style="background-color: rgb(128, 172, 255)">
-                <ul style="background-color: rgb(221, 255, 31)">
-                    <li style="background-color: rgb(241, 85, 255)">
-                        <a href="#housing">Hébergements</a>
+            <nav>
+                <ul>
+                    <li>
+                        <a id="housing-a" href="#housing">Hébergements</a>
                     </li>
-                    <li
-                        id="activity"
-                        style="background-color: rgb(113, 255, 236)"
-                    >
+                    <li id="activity">
                         <a href="#activity-section">Activités</a>
                     </li>
                 </ul>
             </nav>
         </header>
         <section id="section-button">
-            <h1 style="background-color: rgb(0, 162, 255)">
-                Trouvez votre hébergement pour des vacances de rêve
-            </h1>
-            <p style="background-color: rgb(91, 223, 179)">
-                En plein centre ville ou pleine nature
-            </p>
+            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+            <p>En plein centre ville ou pleine nature</p>
 
-            <form id="bar-search" style="background-color: rgb(172, 235, 136)">
+            <form id="bar-search">
                 <label for="field-search-bar">
-                    <i class="fa-solid fa-location-dot"></i>
+                    <i class="fa-solid fa-location-dot location"></i>
                 </label>
                 <input
                     type="text"
@@ -64,51 +57,41 @@
                 </button>
             </form>
 
-            <p id="filtered" style="background-color: rgb(142, 165, 61)">
-                Filtres
-            </p>
+            <p id="filtered">Filtres</p>
 
-            <button style="background-color: rgb(102, 126, 136)">
+            <button id="logo-economique">
                 <i class="fa-solid fa-money-bill-wave"></i>
                 <span>Économique</span>
             </button>
 
-            <button style="background-color: rgb(55, 151, 111)">
+            <button id="logo-familial">
                 <i class="fa-solid fa-child-reaching"></i>
                 <span>Familial</span>
             </button>
 
-            <button style="background-color: rgb(150, 71, 214)">
+            <button id="logo-romantique">
                 <i class="fa-solid fa-heart"></i>
                 <span>Romantique</span>
             </button>
 
-            <button style="background-color: rgb(72, 189, 72)">
+            <button id="logo-animaux">
                 <i class="fa-solid fa-dog"></i>
                 <span>Animaux autorisés</span>
             </button>
 
-            <p id="housing-info" style="background-color: rgb(141, 176, 204)">
+            <p id="housing-info">
                 <i class="fas fa-info"></i>
                 Plus de 500 logements sont disponibles dans cette ville
             </p>
         </section>
         <div id="housing">
-            <section
-                id="accommodation-section"
-                style="background-color: rgba(169, 245, 228, 0.432)"
-            >
+            <section id="accommodation-section">
                 <header>
-                    <h2
-                        id="title-accommodation"
-                        style="background-color: rgb(150, 142, 192)"
-                    >
-                        Hébergements à Marseille
-                    </h2>
+                    <h2 id="title-accommodation">Hébergements à Marseille</h2>
                 </header>
                 <div id="First-line">
                     <a href="#">
-                        <figure style="background-color: rgb(185, 153, 226)">
+                        <figure>
                             <img
                                 src="/assets/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
                                 alt="Chambre de l'Auberge La Cannebière"
@@ -122,14 +105,15 @@
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
+
+                                    <i class="fa-solid fa-star star-white"></i>
                                 </div>
                             </figcaption>
                         </figure>
                     </a>
 
                     <a href="#">
-                        <figure style="background-color: rgb(119, 226, 155)">
+                        <figure>
                             <img
                                 src="/assets/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
                                 alt="Chambre de l'hotel du port"
@@ -149,7 +133,7 @@
                         </figure>
                     </a>
                     <a href="#">
-                        <figure style="background-color: rgb(235, 194, 84)">
+                        <figure>
                             <img
                                 src="/assets/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"
                                 alt="Chambre de l'hotel les mouettes"
@@ -163,7 +147,8 @@
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
+
+                                    <i class="fa-solid fa-star star-white"></i>
                                 </div>
                             </figcaption>
                         </figure>
@@ -171,7 +156,7 @@
                 </div>
                 <div id="second-line">
                     <a href="#">
-                        <figure style="background-color: rgb(184, 223, 255)">
+                        <figure>
                             <img
                                 src="/assets/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
                                 alt="Chambre de l'hotel de la mer"
@@ -184,14 +169,15 @@
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
+
+                                    <i class="fa-solid fa-star star-white"></i>
+                                    <i class="fa-solid fa-star star-white"></i>
                                 </div>
                             </figcaption>
                         </figure>
                     </a>
                     <a href="#">
-                        <figure style="background-color: rgb(191, 209, 90)">
+                        <figure>
                             <img
                                 src="/assets/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
                                 alt="Chambre de l'Auberge le Panier"
@@ -205,13 +191,14 @@
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
+
+                                    <i class="fa-solid fa-star star-white"></i>
                                 </div>
                             </figcaption>
                         </figure>
                     </a>
                     <a href="#">
-                        <figure style="background-color: rgb(245, 185, 22)">
+                        <figure>
                             <img
                                 src="/assets/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
                                 alt="Chambre de l'Hôtel chez Amina"
@@ -233,19 +220,14 @@
                 </div>
                 <button id="show-more" name="plus">Afficher plus</button>
             </section>
-            <section
-                id="popular-section"
-                style="background-color: rgb(85, 76, 209)"
-            >
+            <section id="popular-section">
                 <header id="populaires-header">
-                    <h2 id="title-popular" style="background-color: red">
-                        Les plus populaires
-                    </h2>
+                    <h2 id="title-popular">Les plus populaires</h2>
                     <i class="fa-solid fa-star"></i>
                 </header>
                 <div id="div-popular">
                     <a href="#">
-                        <figure style="background-color: rgb(78, 209, 133)">
+                        <figure>
                             <img
                                 src="/assets/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
                                 alt="Chambre de l'hôtel le soleil du matin"
@@ -266,7 +248,7 @@
                     </a>
 
                     <a href="#">
-                        <figure style="background-color: rgb(216, 159, 197)">
+                        <figure>
                             <img
                                 src="/assets/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
                                 alt="Chambre de l'hotel au coeur de l'eau chambres d'hôtes"
@@ -280,13 +262,14 @@
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
+
+                                    <i class="fa-solid fa-star star-white"></i>
                                 </div>
                             </figcaption>
                         </figure>
                     </a>
                     <a href="#">
-                        <figure style="background-color: rgb(209, 169, 124)">
+                        <figure>
                             <img
                                 src="/assets/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
                                 alt="Chambre de l'hôtel tout bleu et blanc"
@@ -300,7 +283,8 @@
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
+
+                                    <i class="fa-solid fa-star star-white"></i>
                                 </div>
                             </figcaption>
                         </figure>
@@ -308,24 +292,13 @@
                 </div>
             </section>
         </div>
-        <section
-            id="activity-section"
-            style="background-color: rgb(76, 168, 161)"
-        >
+        <section id="activity-section">
             <header>
-                <h2
-                    id="title-activities"
-                    style="background-color: rgb(0, 194, 228)"
-                >
-                    Activités à Marseille
-                </h2>
+                <h2 id="title-activities">Activités à Marseille</h2>
             </header>
             <div id="picture-activities">
                 <a href="#">
-                    <figure
-                        id="figure-vieux-port"
-                        style="background-color: rgb(204, 195, 142)"
-                    >
+                    <figure id="figure-vieux-port">
                         <img
                             src="/assets/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
                             alt="Le Vieux Port"
@@ -338,10 +311,7 @@
                 </a>
                 <div id="div-fort-de-poègues-et-iles-du-frioul">
                     <a href="#">
-                        <figure
-                            id="figure-le-fort-de-pomègues"
-                            style="background-color: rgb(192, 134, 46)"
-                        >
+                        <figure id="figure-le-fort-de-pomègues">
                             <img
                                 src="/assets/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
                                 alt="Le Fort de Pomègues"
@@ -353,10 +323,7 @@
                         </figure>
                     </a>
                     <a href="#">
-                        <figure
-                            id="figure-ile-du-frioul"
-                            style="background-color: rgb(99, 120, 160)"
-                        >
+                        <figure id="figure-ile-du-frioul">
                             <img
                                 src="/assets/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
                                 alt="L'île du Frioul"
@@ -370,10 +337,7 @@
                 </div>
                 <div id="div-parc-national">
                     <a href="#">
-                        <figure
-                            id="figure-pac-national-des-calanques"
-                            style="background-color: rgb(195, 196, 141)"
-                        >
+                        <figure id="figure-pac-national-des-calanques">
                             <img
                                 src="/assets/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
                                 alt="Le Parc National des Calanques"
@@ -387,10 +351,7 @@
                 </div>
                 <div id="div-notre-dame-de-la-garde-et-parc-longchamp">
                     <a href="#">
-                        <figure
-                            id="figure-notre-dame-de-la-garde"
-                            style="background-color: rgb(115, 214, 102)"
-                        >
+                        <figure id="figure-notre-dame-de-la-garde">
                             <img
                                 src="/assets/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"
                                 alt="Notre-Dame-de-la-Garde"
@@ -402,10 +363,7 @@
                         </figure>
                     </a>
                     <a href="#">
-                        <figure
-                            id="figure-parc-longchamp"
-                            style="background-color: rgb(234, 215, 240)"
-                        >
+                        <figure id="figure-parc-longchamp">
                             <img
                                 src="/assets/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
                                 alt="Le Parc Longchamp"
@@ -420,8 +378,8 @@
             </div>
         </section>
 
-        <footer style="background-color: rgb(194, 160, 116)">
-            <div style="background-color: rgb(153, 200, 206)">
+        <footer>
+            <div>
                 <h3>A propos</h3>
                 <ul>
                     <li>Fonctionnement du site</li>
@@ -429,14 +387,14 @@
                     <li>Données et confidentialité</li>
                 </ul>
             </div>
-            <div style="background-color: rgb(175, 199, 160)">
+            <div>
                 <h3>Nos hébergements</h3>
                 <ul>
                     <li>Charte qualité</li>
                     <li>Soumettre votre hôtel</li>
                 </ul>
             </div>
-            <div style="background-color: rgb(228, 156, 156)">
+            <div>
                 <h3>Assistance</h3>
                 <ul>
                     <li>Centre d'aide</li>

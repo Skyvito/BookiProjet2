@@ -1,3 +1,9 @@
+/*Police*/
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
+body {
+    font-family: "Raleway", sans-serif;
+}
 /*header*/
 body > header {
     display: flex;
@@ -5,8 +11,18 @@ body > header {
     padding: 0 20px;
 }
 
+h3,
+p {
+    color: black;
+}
+
+.star-white {
+    color: #f2f2f2;
+}
+
 header img {
     position: relative;
+    width: 100px;
 }
 
 header ul {
@@ -14,31 +30,98 @@ header ul {
 }
 
 #activity {
-    padding-left: 25px;
+    border-top: 2px solid white;
+    padding: 20px;
+    display: block;
+}
+
+header nav {
+    padding-top: 2px;
+}
+
+header a {
+    padding-top: 3px;
+    color: black;
+}
+
+#housing-a {
+    border-top: 2px solid #0065fc;
+    color: #0065fc;
+    padding: 20px;
+    display: block;
 }
 
 /*Section outil*/
 #section-button {
-    padding: 0 20px;
-    padding-top: 20px;
+    padding: 10px 20px;
 }
 
 #bar-search {
-    margin-bottom: 20px;
-    margin-top: 12px;
+    margin: 12px 0 12px 0;
+    display: flex;
+    padding: 0 0 15px;
+}
+
+#field-search-bar {
+    border: 1px solid #e4e8e7;
+}
+#button-search {
+    background-color: #0065fc;
+    border-radius: 0 10px 10px 0;
+    border: 1px solid #0065fc;
+    cursor: pointer;
+}
+
+.location {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    background-color: #f2f2f2;
+    text-align: center;
+    border-radius: 10px 0 0 10px;
 }
 
 #button-search i {
     display: none;
+    color: white;
+    width: 40px;
+}
+
+#button-search span {
+    color: white;
+    padding: 0 20px;
+    cursor: pointer;
 }
 
 #filtered {
     display: inline-block;
     margin-right: 10px;
+    font-weight: bold;
+}
+
+#section-button p i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0065fc;
+    border: 1px solid #f2f2f2;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 13px;
+    margin-right: 5px;
+}
+
+#housing-info {
+    display: flex;
 }
 
 section > button {
     margin: 0 10px 5px 0;
+    border: solid 2px #f2f2f2;
+    border-radius: 200px;
+    background-color: white;
+    cursor: pointer;
 }
 
 section h1 {
@@ -50,21 +133,81 @@ section h1 {
     margin-top: 15px;
 }
 
+#logo-economique span {
+    padding: 0 15px;
+    font-weight: bold;
+}
+
+#logo-economique i {
+    color: #0065fc;
+    height: 40px;
+    background-color: #deebff;
+    width: 40px;
+    border-radius: 20px;
+    line-height: 40px;
+    margin: -2px;
+}
+
+#logo-familial span {
+    padding: 0 15px;
+    font-weight: bold;
+}
+
+#logo-familial i {
+    color: #0065fc;
+    height: 40px;
+    background-color: #deebff;
+    width: 40px;
+    border-radius: 20px;
+    line-height: 40px;
+    margin: -2px;
+}
+
+#logo-romantique span {
+    padding: 0px 15px;
+    font-weight: bold;
+}
+
+#logo-romantique i {
+    color: rgb(0, 101, 252);
+    height: 40px;
+    background-color: rgb(222, 235, 255);
+    width: 40px;
+    border-radius: 20px;
+    line-height: 40px;
+    margin: -2px;
+}
+
+#logo-animaux span {
+    padding: 0px 15px;
+    font-weight: bold;
+}
+
+#logo-animaux i {
+    color: #0065fc;
+    height: 40px;
+    background-color: #deebff;
+    width: 40px;
+    border-radius: 20px;
+    line-height: 40px;
+    margin: -2px;
+}
+
 /*Populaire/Hebergement*/
 #housing {
     display: flex;
-    padding: 20px;
+    padding: 15px;
     gap: 20px;
 }
 
 #housing > section {
-    padding: 20px;
+    padding: 15px;
 }
 
 #housing header {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin: 15px 0;
 }
 
 /*Populaire Marseille*/
@@ -77,6 +220,9 @@ section h1 {
 
 #popular-section {
     width: 35%;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 30px;
 }
 
 #popular-section figure {
@@ -84,16 +230,26 @@ section h1 {
     width: calc(100% / 3);
     height: 11vw;
     width: 100%;
-    margin-bottom: 30px;
+    background-color: rgb(255 255 255);
+    border-radius: 20px 0 0 20px;
+}
+
+#div-popular {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
 #div-popular figcaption {
     position: relative;
+    padding: 15px;
 }
 
 #div-popular figcaption > div {
     position: absolute;
-    bottom: 0;
+    bottom: 10px;
+    color: #0065fc;
+    display: flex;
 }
 
 #div-popular figcaption > h3 {
@@ -101,9 +257,18 @@ section h1 {
     font-weight: bold;
 }
 
+#div-popular figure > img {
+    object-fit: cover;
+    width: 250px;
+    border-radius: 20px 0 0 20px;
+    padding: 8px;
+}
+
 /*Hotel Marseille*/
 #accommodation-section {
     width: 65%;
+    background-color: #f2f2f2;
+    border-radius: 30px;
 }
 
 #title-accommodation {
@@ -112,11 +277,20 @@ section h1 {
 }
 
 #show-more {
-    margin-right: 600px;
+    background: url(../images/button/Reset2.png) no-repeat;
+    border: none;
+    width: 90px;
+    height: 32px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    display: contents;
 }
 
 #accommodation-section figure {
     padding: 5px;
+    background-color: rgb(255 255 255);
+    border-radius: 20px 20px 0 0;
 }
 
 #First-line {
@@ -129,18 +303,22 @@ div#First-line > a {
 }
 
 #First-line img {
+    object-fit: cover;
     height: 11vw;
+    border-radius: 20px 20px 0 0;
 }
 
 #First-line figcaption {
     height: 100px;
     position: relative;
-    padding-top: 19px;
+    padding: 19px 0 10px 0;
 }
 
 #First-line figcaption > div {
     position: absolute;
-    bottom: 0;
+    bottom: 10px;
+    display: flex;
+    color: #0065fc;
 }
 
 #First-line h3 {
@@ -151,24 +329,27 @@ div#First-line > a {
 #second-line {
     display: flex;
     gap: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px 0 20px 0;
 }
 
 div#second-line > a {
     width: calc(100% / 3);
 }
 #second-line img {
+    object-fit: cover;
     height: 11vw;
+    border-radius: 20px 20px 0 0;
 }
 #second-line figcaption {
     height: 100px;
     position: relative;
-    padding-top: 19px;
+    padding: 19px 0 10px 0;
 }
 #second-line figcaption > div {
     position: absolute;
-    bottom: 0;
+    bottom: 10px;
+    display: flex;
+    color: #0065fc;
 }
 
 #second-line h3 {
@@ -179,7 +360,7 @@ div#second-line > a {
 /*Activités*/
 #activity-section {
     padding: 20px;
-    height: 600px;
+    height: 700px;
 }
 
 #title-activities {
@@ -194,83 +375,92 @@ div#second-line > a {
 
 #picture-activities {
     display: flex;
-    gap: 20px;
-    padding-top: 20px;
+    gap: 40px;
+    padding: 20px 0;
+    height: 25vw;
 }
 
 #figure-vieux-port {
     width: 25vw;
-    height: 480px;
-    position: relative;
+    height: 580px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px #f2f2f2;
 }
 
 #figure-vieux-port img {
-    height: 450px;
+    height: calc(100% - 60px);
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
 }
 
 #div-fort-de-poègues-et-iles-du-frioul {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+#div-fort-de-poègues-et-iles-du-frioul img {
     width: 25vw;
+    height: calc(100% - 60px);
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
 }
 
 #figure-le-fort-de-pomègues {
-    height: 240px;
-    position: relative;
-}
-
-#figure-le-fort-de-pomègues img {
-    width: 25vw;
-    height: 210px;
+    height: 340px;
+    box-shadow: 0px 5px 10px #f2f2f2;
+    border-radius: 20px;
 }
 
 #figure-ile-du-frioul {
     height: 200px;
-    margin-top: 40px;
-    position: relative;
-}
-
-#figure-ile-du-frioul img {
-    width: 25vw;
-    height: 170px;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px #f2f2f2;
 }
 
 #figure-pac-national-des-calanques {
     width: 25vw;
-    height: 480px;
-    position: relative;
+    height: 580px;
+    box-shadow: 0px 5px 10px #f2f2f2;
+    border-radius: 20px;
 }
 
 #figure-pac-national-des-calanques img {
-    height: 450px;
+    height: calc(100% - 60px);
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
 }
 
 #div-notre-dame-de-la-garde-et-parc-longchamp {
     width: 25vw;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+#div-notre-dame-de-la-garde-et-parc-longchamp img {
+    height: calc(100% - 60px);
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
 }
 
 #figure-notre-dame-de-la-garde {
-    height: 220px;
-    position: relative;
-}
-
-#figure-notre-dame-de-la-garde img {
-    height: 190px;
+    height: 270px;
+    box-shadow: 0px 5px 10px #f2f2f2;
+    border-radius: 20px;
 }
 
 #figure-parc-longchamp {
-    height: 220px;
-    margin-top: 40px;
-    position: relative;
-}
-
-#figure-parc-longcham img {
-    height: 190px;
+    height: 270px;
+    box-shadow: 0px 5px 10px #f2f2f2;
+    border-radius: 20px;
 }
 
 #activity-section div figcaption > h3 {
     font-size: 19px;
     font-weight: bold;
-    position: absolute;
-    bottom: 0;
+    margin-left: 10px;
+    padding: 15px;
 }
 
 /*footer*/
@@ -278,6 +468,7 @@ footer {
     display: flex;
     padding: 20px;
     gap: 20px;
+    background-color: #f2f2f2;
 }
 
 footer > div {
