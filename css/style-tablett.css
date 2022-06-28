@@ -1,0 +1,69 @@
+#housing {
+    flex-direction: column-reverse;
+}
+
+#popular-section {
+    width: 100%;
+}
+
+#div-popular figure > img {
+    width: 30%;
+}
+
+#popular-section figure {
+    height: 16vw;
+}
+
+#div-popular figcaption {
+    width: 70%;
+}
+
+#accommodation-section {
+    width: 100%;
+}
+
+#First-line {
+    display: block;
+}
+
+#second-line {
+    display: block;
+    padding: 0;
+}
+
+#accommodation-section figure {
+    height: 35vw;
+    margin-bottom: 20px;
+}
+
+#First-line img {
+    height: 70%;
+}
+
+#First-line figcaption {
+    height: 30%;
+}
+
+#second-line img {
+    height: 70%;
+}
+
+#second-line figcaption {
+    height: 30%;
+}
+
+#picture-activities {
+    flex-direction: column;
+}
+
+div#picture-activities > div {
+    width: 100%;
+}
+
+#activity-section figure {
+    height: 22vw;
+}
+
+#activity-section figure > img {
+    object-fit: cover;
+}
