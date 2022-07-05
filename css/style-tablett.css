@@ -6,28 +6,32 @@
     width: 100%;
 }
 
+#div-popular {
+    flex-direction: row;
+    width: 100%;
+}
+
 #div-popular figure > img {
-    width: 30%;
+    width: 50%;
 }
 
 #popular-section figure {
-    height: 16vw;
+    height: 19vw;
 }
 
 #div-popular figcaption {
-    width: 70%;
+    width: 50%;
+}
+
+#div-popular > a {
+    width: calc(100% / 3);
 }
 
 #accommodation-section {
     width: 100%;
 }
 
-#First-line {
-    display: block;
-}
-
 #second-line {
-    display: block;
     padding: 0;
 }
 
@@ -42,6 +46,7 @@
 
 #First-line figcaption {
     height: 30%;
+    padding: 0;
 }
 
 #second-line img {
@@ -50,6 +55,7 @@
 
 #second-line figcaption {
     height: 30%;
+    padding: 0;
 }
 
 #picture-activities {
@@ -66,4 +72,8 @@ div#picture-activities > div {
 
 #activity-section figure > img {
     object-fit: cover;
+}
+
+header nav {
+    font-size: calc(4px + 1vw);
 }

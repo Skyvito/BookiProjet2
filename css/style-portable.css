@@ -1,0 +1,136 @@
+body > header {
+    display: Block;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+}
+
+header a img {
+    margin-left: 60px;
+}
+
+header a {
+    display: flex;
+    justify-content: center;
+}
+
+#housing-a {
+    padding: 0 20px;
+}
+
+header a {
+    padding: 0 20px;
+}
+
+header nav {
+    font-size: calc(8px + 1vw);
+}
+
+#housing-a:hover {
+    border-top: none;
+    border-bottom: 2px solid #0065fc;
+    color: #0065fc;
+}
+
+#activity:hover {
+    border-bottom: 2px solid #f2f2f2;
+}
+
+#button-search i {
+    display: inline-block;
+    color: white;
+    width: 40px;
+}
+
+#button-search span {
+    display: none;
+}
+
+#button-search {
+    border-radius: 10px 10px 10px 10px;
+    margin-left: -10px;
+}
+
+section h1 {
+    display: flex;
+    justify-content: center;
+}
+
+h1 + p {
+    display: flex;
+    justify-content: center;
+}
+
+#bar-search {
+    display: flex;
+    justify-content: center;
+}
+
+#housing-info {
+    display: flex;
+    justify-content: center;
+}
+
+#accommodation-section {
+    background-color: white;
+}
+
+#First-line img {
+    height: 60%;
+}
+
+#First-line figcaption {
+    height: 40%;
+}
+
+#second-line img {
+    height: 60%;
+}
+
+#second-line figcaption {
+    height: 40%;
+}
+
+#popular-section figure {
+    height: 24vw;
+}
+
+#activity-section figure > img {
+    height: 70%;
+}
+
+#activity-section figure > figcaption {
+    height: 30%;
+}
+
+#popular-section {
+    border-radius: 0;
+}
+
+#accommodation-section figure {
+    box-shadow: 0px 5px 10px #f2f2f2;
+}
+
+footer div > h3 {
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+footer li {
+    font-size: 8px;
+}
+
+footer {
+    flex-direction: column;
+}
+
+#filtered {
+    display: block;
+    padding: 0 0 10px;
+}
+
+footer > div {
+    width: 100%;
+}

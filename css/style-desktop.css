@@ -22,11 +22,12 @@ p {
 
 header img {
     position: relative;
-    width: 100px;
+    width: auto;
+    height: 60px;
 }
 
 header a {
-    padding-top: 3px;
+    padding: 20px 0;
     color: black;
 }
 
@@ -43,6 +44,11 @@ header nav {
     padding: 20px;
 }
 #housing-a:hover {
+    border-top: 2px solid #0065fc;
+    color: #0065fc;
+}
+
+#activity a:hover {
     border-top: 2px solid #0065fc;
     color: #0065fc;
 }
@@ -366,6 +372,7 @@ div#second-line > a {
     display: flex;
     gap: 40px;
     padding: 20px 0;
+    height: 30vw;
 }
 
 div#picture-activities > div {
@@ -373,7 +380,7 @@ div#picture-activities > div {
 }
 
 .duo-activity figure {
-    height: 600px;
+    height: 100%;
     box-shadow: 0px 5px 10px #f2f2f2;
     border-radius: 20px;
 }
@@ -397,6 +404,10 @@ figure.figure-duo figcaption {
     gap: 40px;
 }
 
+#div-fort-de-poègues-et-iles-du-frioul > a {
+    height: calc(50% - 20px);
+}
+
 #div-fort-de-poègues-et-iles-du-frioul img {
     height: calc(100% - 60px);
     border-radius: 20px 20px 0 0;
@@ -404,7 +415,7 @@ figure.figure-duo figcaption {
 }
 
 #figure-le-fort-de-pomègues {
-    height: 400px;
+    height: 100%;
     box-shadow: 0px 5px 10px #f2f2f2;
     border-radius: 20px;
 }
@@ -417,7 +428,7 @@ figure.figure-duo figcaption {
 }
 
 #figure-ile-du-frioul {
-    height: 160px;
+    height: 100%;
     box-shadow: 0px 5px 10px #f2f2f2;
     border-radius: 20px;
 }
@@ -435,8 +446,12 @@ figure.figure-duo figcaption {
     gap: 40px;
 }
 
+div#div-notre-dame-de-la-garde-et-parc-longchamp > a {
+    height: calc(50% - 20px);
+}
+
 .figure-notre-dame-de-la-garde-long {
-    height: 280px;
+    height: 100%;
     box-shadow: 0px 5px 10px #f2f2f2;
     border-radius: 20px;
 }
@@ -444,6 +459,7 @@ figure.figure-duo figcaption {
 .figure-notre-dame-de-la-garde-long img {
     height: calc(100% - 60px);
     border-radius: 20px 20px 0 0;
+    object-fit: cover;
 }
 
 .figure-notre-dame-de-la-garde-long figcaption {
@@ -543,5 +559,33 @@ footer div > h3 {
     }
     #section-button p {
         font-size: 13px;
+    }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1150px) {
+    figure.figure-duo figcaption {
+        height: 40px;
+    }
+    figure.figure-duo img {
+        height: calc(100% - 40px);
+    }
+    #figure-le-fort-de-pomègues figcaption {
+        height: 40px;
+    }
+
+    #div-fort-de-poègues-et-iles-du-frioul img {
+        height: calc(100% - 40px);
+    }
+
+    #figure-ile-du-frioul figcaption {
+        height: 40px;
+    }
+
+    .figure-notre-dame-de-la-garde-long figcaption {
+        height: 40px;
+    }
+
+    .figure-notre-dame-de-la-garde-long img {
+        height: calc(100% - 40px);
     }
 }
