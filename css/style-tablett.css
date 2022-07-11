@@ -58,16 +58,8 @@
     padding: 0;
 }
 
-#picture-activities {
-    flex-direction: column;
-}
-
 div#picture-activities > div {
     width: 100%;
-}
-
-#activity-section figure {
-    height: 22vw;
 }
 
 #activity-section figure > img {
@@ -76,4 +68,58 @@ div#picture-activities > div {
 
 header nav {
     font-size: calc(4px + 1vw);
+}
+
+figure.figure-duo figcaption {
+    height: 40px;
+}
+figure.figure-duo img {
+    height: calc(100% - 40px);
+}
+#figure-le-fort-de-pomègues figcaption {
+    height: 40px;
+}
+
+#div-fort-de-poègues-et-iles-du-frioul img {
+    height: calc(100% - 40px);
+}
+
+#figure-ile-du-frioul figcaption {
+    height: 40px;
+}
+
+.figure-notre-dame-de-la-garde-long figcaption {
+    height: 40px;
+}
+
+.figure-notre-dame-de-la-garde-long img {
+    height: calc(100% - 40px);
+}
+
+#first-line-activity {
+    flex-direction: column;
+}
+
+#second-line-activity {
+    flex-direction: column;
+}
+
+#picture-activities {
+    height: auto;
+}
+
+.duo-activity figure {
+    height: 30vw;
+}
+
+#figure-le-fort-de-pomègues {
+    height: 30vw;
+}
+
+.figure-notre-dame-de-la-garde-long {
+    height: 30vw;
+}
+
+#figure-ile-du-frioul {
+    height: 30vw;
 }

@@ -2,15 +2,6 @@ body > header {
     display: Block;
 }
 
-header nav {
-    display: flex;
-    justify-content: center;
-}
-
-header a img {
-    margin-left: 60px;
-}
-
 header a {
     display: flex;
     justify-content: center;
@@ -26,6 +17,8 @@ header a {
 
 header nav {
     font-size: calc(8px + 1vw);
+    width: 100%;
+    padding: 20px 0;
 }
 
 #housing-a:hover {
@@ -34,8 +27,17 @@ header nav {
     color: #0065fc;
 }
 
-#activity:hover {
+#house {
+    width: 50%;
+}
+
+#activity a:hover {
+    border-top: none;
     border-bottom: 2px solid #f2f2f2;
+}
+
+#activity {
+    width: 50%;
 }
 
 #button-search i {
@@ -53,22 +55,7 @@ header nav {
     margin-left: -10px;
 }
 
-section h1 {
-    display: flex;
-    justify-content: center;
-}
-
-h1 + p {
-    display: flex;
-    justify-content: center;
-}
-
 #bar-search {
-    display: flex;
-    justify-content: center;
-}
-
-#housing-info {
     display: flex;
     justify-content: center;
 }
@@ -77,12 +64,33 @@ h1 + p {
     background-color: white;
 }
 
+#First-line {
+    flex-direction: column;
+}
+
+div#First-line > a {
+    width: 100%;
+}
+
 #First-line img {
     height: 60%;
 }
 
 #First-line figcaption {
     height: 40%;
+    padding: 8px;
+}
+
+#First-line figcaption > div {
+    bottom: 0;
+}
+
+#second-line {
+    flex-direction: column;
+}
+
+div#second-line > a {
+    width: 100%;
 }
 
 #second-line img {
@@ -91,6 +99,11 @@ h1 + p {
 
 #second-line figcaption {
     height: 40%;
+    padding: 8px;
+}
+
+#second-line figcaption > div {
+    bottom: 0;
 }
 
 #popular-section figure {
@@ -133,4 +146,99 @@ footer {
 
 footer > div {
     width: 100%;
+}
+
+#div-popular figcaption > h3 {
+    font-size: calc(8px + 0.6vw);
+}
+
+#div-popular figcaption > p {
+    font-size: calc(7px + 0.7vw);
+}
+
+#div-popular > a {
+    width: 100%;
+}
+
+#div-popular {
+    flex-direction: column;
+}
+
+#picture-activities {
+    flex-direction: column;
+    height: initial;
+}
+
+div#picture-activities > div {
+    width: 100%;
+}
+
+figure.figure-duo {
+    height: 35vw;
+}
+
+div#div-fort-de-poègues-et-iles-du-frioul > a {
+    height: 35vw;
+}
+
+div#div-notre-dame-de-la-garde-et-parc-longchamp > a {
+    height: 35vw;
+}
+
+#field-search-bar {
+    width: 100%;
+}
+
+li#house > a {
+    padding-bottom: 20px;
+}
+
+li#activity > a {
+    padding-bottom: 20px;
+}
+
+div#First-line figure figcaption > p {
+    font-size: calc(7px + 0.7vw);
+}
+
+#First-line h3 {
+    font-size: calc(8px + 0.6vw);
+}
+
+div#second-line figure figcaption > p {
+    font-size: calc(7px + 0.7vw);
+}
+
+#second-line h3 {
+    font-size: calc(8px + 0.6vw);
+}
+
+#accommodation-section figure {
+    height: 38vw;
+}
+
+@media screen and (min-width: 566px) and (max-width: 768px) {
+    #First-line figcaption {
+        padding: 18px;
+    }
+
+    #second-line figcaption {
+        padding: 18px;
+    }
+
+    #First-line figcaption > div {
+        bottom: 10px;
+    }
+
+    #second-line figcaption > div {
+        bottom: 10px;
+    }
+}
+
+#activity-section div figcaption > h3 {
+    font-size: calc(8px + 0.6vw);
+}
+
+body > header {
+    padding: 0;
 }

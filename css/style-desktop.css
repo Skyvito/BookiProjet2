@@ -589,3 +589,37 @@ footer div > h3 {
         height: calc(100% - 40px);
     }
 }
+
+#first-line-activity {
+    display: flex;
+    gap: 40px;
+}
+
+#second-line-activity {
+    display: flex;
+    gap: 40px;
+}
+
+div#picture-activities div {
+    width: 100%;
+}
+
+button#logo-animaux:hover {
+    background-color: #0065fc;
+    color: #f2f2f2;
+}
+
+button#logo-romantique:hover {
+    background-color: #0065fc;
+    color: #f2f2f2;
+}
+
+button#logo-familial:hover {
+    background-color: #0065fc;
+    color: #f2f2f2;
+}
+
+button#logo-economique:hover {
+    background-color: #0065fc;
+    color: #f2f2f2;
+}
