@@ -193,6 +193,26 @@ section h1 {
     margin: -2px;
 }
 
+button#logo-animaux:hover {
+    background-color: #0065fc;
+    color: #f2f2f2;
+}
+
+button#logo-romantique:hover {
+    background-color: #0065fc;
+    color: #f2f2f2;
+}
+
+button#logo-familial:hover {
+    background-color: #0065fc;
+    color: #f2f2f2;
+}
+
+button#logo-economique:hover {
+    background-color: #0065fc;
+    color: #f2f2f2;
+}
+
 /*Populaire/Hebergement*/
 #housing {
     display: flex;
@@ -469,6 +489,20 @@ div#div-notre-dame-de-la-garde-et-parc-longchamp > a {
     padding: 10px;
 }
 
+#first-line-activity {
+    display: flex;
+    gap: 40px;
+}
+
+#second-line-activity {
+    display: flex;
+    gap: 40px;
+}
+
+div#picture-activities div {
+    width: 100%;
+}
+
 /*footer*/
 footer {
     display: flex;
@@ -588,38 +622,4 @@ footer div > h3 {
     .figure-notre-dame-de-la-garde-long img {
         height: calc(100% - 40px);
     }
-}
-
-#first-line-activity {
-    display: flex;
-    gap: 40px;
-}
-
-#second-line-activity {
-    display: flex;
-    gap: 40px;
-}
-
-div#picture-activities div {
-    width: 100%;
-}
-
-button#logo-animaux:hover {
-    background-color: #0065fc;
-    color: #f2f2f2;
-}
-
-button#logo-romantique:hover {
-    background-color: #0065fc;
-    color: #f2f2f2;
-}
-
-button#logo-familial:hover {
-    background-color: #0065fc;
-    color: #f2f2f2;
-}
-
-button#logo-economique:hover {
-    background-color: #0065fc;
-    color: #f2f2f2;
 }
